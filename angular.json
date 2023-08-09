@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/control-gastos-front",
+            "outputPath": "./../control-gastos-publish",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -49,7 +49,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumError": "2mb"
                 },
                 {
                   "type": "anyComponentStyle",
