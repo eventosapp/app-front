@@ -19,13 +19,13 @@ import { LoaderComponent } from './components/loader/loader.component';
   ],
   imports: [
     BrowserModule,
-    AuthModule.forRoot({
-      domain: environment.config.auth0.domain,
-      clientId: environment.config.auth0.clientId,
-      authorizationParams: {
-        redirect_uri: window.location.origin
-      },
-    }),
+    // AuthModule.forRoot({
+    //   domain: environment.config.auth0.domain,
+    //   clientId: environment.config.auth0.clientId,
+    //   authorizationParams: {
+    //     redirect_uri: window.location.origin
+    //   },
+    // }),
     AppRoutingModule,
     ClientesModule
   ],

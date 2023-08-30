@@ -7,11 +7,11 @@ const routes: Routes = [
   {
     path: "",
     component: IndexComponent,
-    canActivate: [AuthGuard],
+    // canActivate: [AuthGuard],
     children: [
       {
         path: "clientes",
-        canActivate: [AuthGuard],
+        // canActivate: [AuthGuard],
         loadChildren: () => import('./../modules/clientes/clientes.module').then(m => m.ClientesModule)
       },
     ]
